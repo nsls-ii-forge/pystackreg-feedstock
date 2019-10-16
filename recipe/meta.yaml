@@ -12,12 +12,16 @@ source:
 
 build:
   number: 0
-  noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
+  skip: True  # [py<36]
 
 requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
   host:
     - python
+    - numpy
     - pip
   run:
     - numpy
