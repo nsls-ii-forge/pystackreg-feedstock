@@ -25,7 +25,7 @@ requirements:
     - pip
   run:
     - python
-    - numpy
+    - {{ pin_compatible('numpy') }}
     - tqdm
 
 test:
@@ -33,7 +33,7 @@ test:
     - pystackreg
 
 about:
-  home: https://bitbucket.org/glichtner/pystackreg
+  home: https://github.com/glichtner/pystackreg
   license: Custom
   license_family: OTHER
   license_file: LICENSE.txt
