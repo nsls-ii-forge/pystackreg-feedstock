@@ -1,9 +1,9 @@
 About pystackreg
 ================
 
-Home: https://bitbucket.org/glichtner/pystackreg
+Home: https://github.com/glichtner/pystackreg
 
-Package license: UNKNOWN
+Package license: Custom
 
 Feedstock license: BSD 3-Clause
 
